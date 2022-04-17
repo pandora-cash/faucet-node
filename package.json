@@ -1,0 +1,23 @@
+{
+  "name": "faucet",
+  "scripts": {
+    "start": "node main.js",
+    "download": "node download-sounds.js"
+  },
+  "dependencies": {
+    "captcha-canvas": "^3.1.0",
+    "captcha-generator-alphanumeric": "^1.10.0",
+    "cors": "^2.8.5",
+    "dict": "^1.4.0",
+    "express": "^4.17.3",
+    "gm": "^1.23.1",
+    "hcaptcha": "^0.1.1",
+    "node-storage": "^0.0.9",
+    "ppfun-captcha": "^1.6.6",
+    "sanitize": "^2.1.0",
+    "soundoftext-js": "^1.0.2",
+    "svg-captcha-fixed": "^1.5.2",
+    "svg2img": "^0.9.4",
+    "trek-captcha": "^0.4.0"
+  }
+}
